@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cabin:ital,wght@0,400;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Abril Fatface', serif;
+font-family: 'Cabin', sans-serif;
+}
+.colmar-body{
+    background-color: rgb(245,244,245);
+}
+a{
+    color: #000;
+}
+a:link {
+    
+  
+   
+    text-decoration: none;
+   
+   
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    
+   
+    
+    text-decoration: underline;
+  }
+.cm-header{
+    width: 100%;
+    display: flex;
+    height: 64px;
+    /* background-color: aqua; */
+    align-items: center;
+}
+.cm-nav{
+    flex: 1;
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+.nav-left{
+   
+    margin-left: 24px;
+  height: 50px;
+ 
+    display: flex;
+    /* background-color: blueviolet; */
+    align-items: center;
+}
+.navl-item1{
+    /* background-color: rgb(120, 234, 110); */
+    align-items: center;
+   display: flex;
+}
+.navl-item1 img{
+    height: 55px;
+    
+}
+.navl-item2{
+    font-weight: 700;
+    font-size: 32px;
+}
+.navl-item3{
+    font-size: 32px;
+}
+.nav-right{
+   
+   font-size: 1.5rem;
+    margin-right: 24px;
+    justify-content: end;
+    flex: 1;
+    /* background-color: wheat; */
+    display: flex;
+    align-items: center;
+    gap:16px
+}
+
+.hero{
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.colmar-header{
+    width: 100%;
+    height: 64px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+    align-items: center;
+    
+}
+.colmar-header img{
+    /* background-color: aquamarine; */
+    margin-left: 24px;
+    width: 40px;
+}
+.colmar-nav{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    background-color: rgb(110, 104, 104);
+justify-content: space-between;
+
+}
+.header-left{
+    display: flex;
+    
+    height: 32px;
+    /* background-color: rgb(246, 241, 252); */
+    align-items: center;
+}
+
+.text-borderl{ 
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+}
+.text-l{
+    font-size: 32px;
+    color: rgb(155, 155, 155);
+}
+.header-right{
+    display: flex;
+    margin-right: 24px;
+    /* background-color: blueviolet; */
+    gap: 16px;
+    
+}
+.header-text-right{
+    font-size: 1.5rem;
+    
+    color: rgb(70, 70, 70);
+    /* background-color: aquamarine; */
+}
+.colmar-miniheader{
+    
+    display :none;
+    
+}
+
+
+.test{
+    display: flex;
+    gap: 24px;
+    height: 100vh;
+}
+.test-p{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    overflow: hidden;
+    flex: 3;
+    background-color: aqua;
+    object-fit: cover;
+    object-position: center;
+}
+.banner-test{
+    flex: 2;
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+.section-banner{
+
+    display: flex;
+background-color: rgb(53, 53, 85);
+    align-items: center;
+
+    
+    gap:24px;
+}
+
+.colmar-banner{
+   flex:3;
+   object-fit: cover;
+    margin-top: 32px;
+margin-left: 24px;
+margin-bottom: 32px;
+}
+
+.banner-text{
+
+    flex: 2;
+   
+   height: 100vh;
+    
+    background-color: azure;
+ gap:48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.banner-img img {
+  height: 100vh;
+  object-fit: cover;
+ 
+  
+}
+.banner-text-1{
+    color: rgb(70, 70, 70);
+    /* background-color: brown; */
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-text-2{
+    color: rgb(70, 70, 70);
+    /* background-color: blueviolet; */
+    font-size: 2rem;
+    font-weight: bold;
+    
+    
+}
+.banner-text-3{
+    /* border: 1px solid black; */
+    text-align: center;
+    
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(74, 74, 74);
+    font-size: 2rem;
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+
+
+.btn-banner-text{
+    font-size: 1.5rem;
+    
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+.colmar-header{
+    display: none;
+}
+
+.colmar-miniheader{
+   
+    height: 64px;
+    background-color: rgb(96, 88, 72);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+
