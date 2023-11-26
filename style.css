@@ -10,7 +10,7 @@ font-family: 'Cabin', sans-serif;
     background-color: rgb(245,244,245);
 }
 a{
-    color: #000;
+    color: #5c5c5c;
 }
 a:link {
     
@@ -35,7 +35,7 @@ a:link {
     width: 100%;
     display: flex;
     height: 64px;
-    /* background-color: aqua; */
+    background-color: rgb(255, 255, 255);
     align-items: center;
 }
 .cm-nav{
@@ -63,10 +63,12 @@ a:link {
     
 }
 .navl-item2{
+    color: rgb(90, 89, 89);
     font-weight: 700;
     font-size: 32px;
 }
 .navl-item3{
+    color: rgb(155, 156, 156);
     font-size: 32px;
 }
 .nav-right{
@@ -82,248 +84,70 @@ a:link {
 }
 
 .hero{
-    background-color: aqua;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.colmar-header{
-    width: 100%;
-    height: 64px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-
-    align-items: center;
-    
-}
-.colmar-header img{
-    /* background-color: aquamarine; */
-    margin-left: 24px;
-    width: 40px;
-}
-.colmar-nav{
-    width: 100%;
-    display: flex;
-    flex: 1;
-    background-color: rgb(110, 104, 104);
-justify-content: space-between;
-
-}
-.header-left{
-    display: flex;
-    
-    height: 32px;
-    /* background-color: rgb(246, 241, 252); */
-    align-items: center;
-}
-
-.text-borderl{ 
-    font-size: 32px;
-    font-weight: bold;
-    color: rgb(74, 74, 74);
-}
-.text-l{
-    font-size: 32px;
-    color: rgb(155, 155, 155);
-}
-.header-right{
-    display: flex;
-    margin-right: 24px;
-    /* background-color: blueviolet; */
-    gap: 16px;
-    
-}
-.header-text-right{
-    font-size: 1.5rem;
-    
-    color: rgb(70, 70, 70);
-    /* background-color: aquamarine; */
-}
-.colmar-miniheader{
-    
-    display :none;
-    
-}
-
-
-.test{
-    display: flex;
-    gap: 24px;
-    height: 100vh;
-}
-.test-p{
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 24px;
     overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    /* background-color: aqua; */
+    height: 100vh;
+    gap:24px;
+}
+.hero-left{
+    
+    margin: 32px 0px 32px 24px;
+    /* margin-top: 32px;
+    margin-left: 24px; */
     flex: 3;
-    background-color: aqua;
+    /* background-color: blanchedalmond; */
+}
+
+.hero-left img {
+   height: 100%;
+   width: 100%;
+    
     object-fit: cover;
     object-position: center;
 }
-.banner-test{
-    flex: 2;
-    background-color: blueviolet;
-}
-
-
-
-
-
-
-
-
-
-
-
-.section-banner{
-
-    display: flex;
-background-color: rgb(53, 53, 85);
-    align-items: center;
-
+.hero-right{
+    margin: 32px 24px 32px 0px;
     
-    gap:24px;
-}
-
-.colmar-banner{
-   flex:3;
-   object-fit: cover;
-    margin-top: 32px;
-margin-left: 24px;
-margin-bottom: 32px;
-}
-
-.banner-text{
 
     flex: 2;
-   
-   height: 100vh;
-    
-    background-color: azure;
- gap:48px;
+    /* background-color: wheat; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-   
+    
 }
 
-.banner-img img {
-  height: 100vh;
-  object-fit: cover;
- 
-  
-}
-.banner-text-1{
-    color: rgb(70, 70, 70);
-    /* background-color: brown; */
+
+
+.hr-item-1{
+    color: #535353;
+    margin-top: 100px;
+   
+    width: 80%;
+    /* background-color: rgb(76, 112, 112); */
     font-size: 4rem;
     font-weight: 700;
+
 }
-.banner-text-2{
-    color: rgb(70, 70, 70);
-    /* background-color: blueviolet; */
-    font-size: 2rem;
-    font-weight: bold;
-    
-    
+.hr-item-2{
+    color: #535353;
+    margin-top: 30px;
+    font-size: 1.8rem;
+   width: 80%;
+    /* background-color: antiquewhite; */
 }
-.banner-text-3{
-    /* border: 1px solid black; */
-    text-align: center;
-    
-    width: 100%;
-    color: rgb(255, 255, 255);
-    background-color: rgb(74, 74, 74);
-    font-size: 2rem;
-    padding-top:8px;
-    padding-bottom: 8px;
+.hr-item-3{
+color: white;
+text-align: center;
+font-size: 2rem;
+width: 80%;
+padding-top: 8px;
+padding-bottom: 8px;
+   margin-top: 50px;
+    background-color: rgb(135, 135, 135);
 }
-
-
-.btn-banner-text{
-    font-size: 1.5rem;
-    
-    width: 100%;
-}
-
-
-
-
 
 
 
